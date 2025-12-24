@@ -1,0 +1,62 @@
+{
+  "name": "FitFlow",
+  "version": "1.0.0",
+  "description": "Production-ready subscription-based gym management dashboard with role-based authentication (Admin, Member, Trainer, Staff), AI-powered diet planning via Google Gemini, workout planner, class booking, progress tracking, and Stripe payment integration. Built with Next.js 15, Supabase, and Better Auth.",
+  "author": "Sami Wasta",
+  "license": "MIT",
+  "homepage": "https://fitflow.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samiwasta/fitflow"
+  },
+  "bugs": {
+    "url": "https://github.com/samiwasta/fitflow/issues"
+  },
+  "keywords": [
+    "gym",
+    "dashboard",
+    "management",
+    "subscription",
+    "authentication",
+    "role-based",
+    "AI",
+    "diet",
+    "workout",
+    "class",
+    "booking",
+    "progress",
+    "tracking",
+    "Stripe",
+    "Better Auth",
+    "Next.js",
+    "Supabase"
+  ],
+  "contributors": [
+    {
+      "name": "Sami Wasta",
+      "email": "samiwasta@gmail.com"
+    }
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
